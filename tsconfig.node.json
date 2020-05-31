@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist.node",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es2016",
+      "dom",
+      "es5"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
