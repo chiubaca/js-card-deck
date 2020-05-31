@@ -23,5 +23,5 @@
   "files": [
     "dist.node",
     "dist.browser"
-  ],
+  ]
 }
