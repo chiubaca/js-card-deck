@@ -1,11 +1,12 @@
 {
   "name": "js-card-deck",
   "version": "0.4.0",
-  "description": "An Isomorphic Javascript Card Deck Library",
-  "main": "index.js",
+  "description": "A Javascript Card Deck Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p tsconfig.node.json && tsc -p tsconfig.browser.json"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,5 @@
   "homepage": "https://github.com/chiubaca/js-card-deck#readme",
   "dependencies": {
     "typescript": "^3.9.3"
-  },
-  "files": [
-    "dist.node",
-    "dist.browser"
-  ]
+  }
 }
