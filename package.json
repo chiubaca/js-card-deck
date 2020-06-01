@@ -1,6 +1,6 @@
 {
   "name": "js-card-deck",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "An Isomorphic Javascript Card Deck Library",
   "main": "index.js",
   "scripts": {
