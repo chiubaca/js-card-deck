@@ -22,7 +22,7 @@ export class Deck {
   /**
    * returns the deck of cards in it's current state
    */
-  public get getDeck(): Card[] {
+  public get showDeck(): Card[] {
     return this.deck
   }
 
