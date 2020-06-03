@@ -31,7 +31,7 @@ export class Deck {
    */
   public showTopCard(): Card {
     let deck = this.deck;
-    let topCard = deck.shift()
+    let topCard = deck.shift() as Card
     let newDeck = [...deck, topCard]
     this.deck = newDeck;
     return topCard
@@ -42,7 +42,7 @@ export class Deck {
    */
   public showBottomCard(): Card {
     let deck = this.deck;
-    let bottomCard = deck.pop()
+    let bottomCard = deck.pop() as Card
     let newDeck = [bottomCard, ...deck]
     this.deck = newDeck;
     return bottomCard
