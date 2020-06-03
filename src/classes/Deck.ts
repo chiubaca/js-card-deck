@@ -27,9 +27,25 @@ export class Deck {
   }
 
   /**
+   * Returns the first card
+   */
+  public get showTopCard(): Card {
+    let deck = this.deck;
+    return deck[0]
+  }
+
+  /**
+   * Returns the last card in the deck
+   */
+  public get showBottomCard(): Card {
+    let deck = this.deck;
+    return deck[51]
+  }
+
+  /**
    * Returns the first card in the deck and moves it last .This changes the state of the deck
    */
-  public showTopCard(): Card {
+  public showTopCardPlaceToBottom(): Card {
     let deck = this.deck;
     let topCard = deck.shift() as Card
     let newDeck = [...deck, topCard]
@@ -40,7 +56,7 @@ export class Deck {
   /**
    * Returns the last card in the deck and moves it first. This changes the state of the deck
    */
-  public showBottomCard(): Card {
+  public showBottomCardPlaceToTop(): Card {
     let deck = this.deck;
     let bottomCard = deck.pop() as Card
     let newDeck = [bottomCard, ...deck]
