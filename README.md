@@ -1,7 +1,7 @@
 ![Published to NPM](https://github.com/chiubaca/js-card-deck/workflows/Publish%20to%20NPM/badge.svg)
 ![Unit Tests](https://github.com/chiubaca/js-card-deck/workflows/Unit%20Tests/badge.svg)
 
-# A Virtual Deck of Javascript Playing Cards
+# Javascript Playing Cards ♦️♣️♥️♠️
 
 A js library to interact with a virtual deck of cards in following data structure:
 
