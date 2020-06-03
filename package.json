@@ -1,6 +1,6 @@
 {
   "name": "js-card-deck",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A Javascript Card Deck Library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
