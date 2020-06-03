@@ -2,13 +2,13 @@ import { Deck } from "./Deck"
 
 test("it should return a deck of cards as an array of objects", () => {
   let deck = new Deck()
-  expect(deck.getDeck).toHaveLength(52)
+  expect(deck.showDeck).toHaveLength(52)
 })
 
 test("it should shuffle the array of cards", () => {
   let deck = new Deck()
   deck.shuffledDeck()
-  expect(deck.getDeck).toHaveLength(52)
+  expect(deck.showDeck).toHaveLength(52)
 })
 
 test("it should return the first card in the array of card objects", () => {
@@ -18,7 +18,7 @@ test("it should return the first card in the array of card objects", () => {
     "suit": "Diamonds",
     "value": 2,
   })
-  expect(deck.getDeck).toHaveLength(52)
+  expect(deck.showDeck).toHaveLength(52)
 })
 
 test("it should return the last card in the array of card objects", () => {
@@ -28,7 +28,7 @@ test("it should return the last card in the array of card objects", () => {
     "suit": "Spades",
     "value": "Ace",
   })
-  expect(deck.getDeck).toHaveLength(52)
+  expect(deck.showDeck).toHaveLength(52)
 })
 
 test("it should return the first card in the deck, then move that card to the end of the array", () => {
@@ -38,7 +38,7 @@ test("it should return the first card in the deck, then move that card to the en
     "suit": "Diamonds",
     "value": 2,
   })
-  expect(deck.getDeck).toHaveLength(52)
+  expect(deck.showDeck).toHaveLength(52)
 })
 
 test("it should return the bottom card in the deck, then move that card to the start of the array", () => {
@@ -48,5 +48,5 @@ test("it should return the bottom card in the deck, then move that card to the s
     "suit": "Spades",
     "value": "Ace",
   })
-  expect(deck.getDeck).toHaveLength(52)
+  expect(deck.showDeck).toHaveLength(52)
 })
